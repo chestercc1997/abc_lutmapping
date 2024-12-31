@@ -1221,6 +1221,8 @@ Abc_Ntk_t * Abc_NtkFromDarChoices( Abc_Ntk_t * pNtkOld, Aig_Man_t * pMan )
     Aig_ManForEachNode( pMan, pObj, i )
     {
         pObj->pData = Abc_AigAnd( (Abc_Aig_t *)pNtkNew->pManFunc, (Abc_Obj_t *)Aig_ObjChild0Copy(pObj), (Abc_Obj_t *)Aig_ObjChild1Copy(pObj) );
+    }
+    Aig_ManForEachNode( pMan, pObj, i ) {
         if ( (pTemp = Aig_ObjEquiv(pMan, pObj)) )
         {
             assert( pTemp->pData != NULL );
@@ -4682,7 +4684,7 @@ Abc_Ntk_t * Abc_NtkDarUnfold( Abc_Ntk_t * pNtk, int nFrames, int nConfs, int nPr
   SeeAlso     []
 
 ***********************************************************************/
-Abc_Ntk_t * Abc_NtkDarFold( Abc_Ntk_t * pNtk, int fCompl, int fVerbose )
+Abc_Ntk_t * Abc_NtkDarFold( Abc_Ntk_t * pNtk, int fCompl, int fVerbose, int fSeqCleanup )
 {
     Abc_Ntk_t * pNtkAig;
     Aig_Man_t * pMan, * pTemp;
@@ -4690,7 +4692,7 @@ Abc_Ntk_t * Abc_NtkDarFold( Abc_Ntk_t * pNtk, int fCompl, int fVerbose )
     pMan = Abc_NtkToDar( pNtk, 0, 1 );
     if ( pMan == NULL )
         return NULL;
-    pMan = Saig_ManDupFoldConstrsFunc( pTemp = pMan, fCompl, fVerbose );
+    pMan = Saig_ManDupFoldConstrsFunc( pTemp = pMan, fCompl, fVerbose, fSeqCleanup );
     Aig_ManStop( pTemp );
     pNtkAig = Abc_NtkFromAigPhase( pMan );
     pNtkAig->pName = Extra_UtilStrsav(pMan->pName);

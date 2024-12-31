@@ -25,6 +25,11 @@
 ///                          INCLUDES                                ///
 ////////////////////////////////////////////////////////////////////////
 
+#ifdef _MSC_VER
+#  include <intrin.h>
+#  define __builtin_popcount __popcnt
+#endif
+
 ////////////////////////////////////////////////////////////////////////
 ///                         PARAMETERS                               ///
 ////////////////////////////////////////////////////////////////////////
@@ -67,6 +72,25 @@ static word s_Truths6Neg[6] = {
     ABC_CONST(0x00FF00FF00FF00FF),
     ABC_CONST(0x0000FFFF0000FFFF),
     ABC_CONST(0x00000000FFFFFFFF)
+};
+
+static word s_Truth26[2][6] = {
+    {
+        ABC_CONST(0xAAAAAAAAAAAAAAAA),
+        ABC_CONST(0xCCCCCCCCCCCCCCCC),
+        ABC_CONST(0xF0F0F0F0F0F0F0F0),
+        ABC_CONST(0xFF00FF00FF00FF00),
+        ABC_CONST(0xFFFF0000FFFF0000),
+        ABC_CONST(0xFFFFFFFF00000000)
+    },
+    {
+        ABC_CONST(0x5555555555555555),
+        ABC_CONST(0x3333333333333333),
+        ABC_CONST(0x0F0F0F0F0F0F0F0F),
+        ABC_CONST(0x00FF00FF00FF00FF),
+        ABC_CONST(0x0000FFFF0000FFFF),
+        ABC_CONST(0x00000000FFFFFFFF)
+    }
 };
 
 static word s_TruthXors[6] = {
@@ -129,18 +153,7 @@ static word s_PPMasks[5][6][3] = {
     }
 };
 
-// the bit count for the first 256 integer numbers
-static int Abc_TtBitCount8[256] = {
-    0,1,1,2,1,2,2,3,1,2,2,3,2,3,3,4,1,2,2,3,2,3,3,4,2,3,3,4,3,4,4,5,
-    1,2,2,3,2,3,3,4,2,3,3,4,3,4,4,5,2,3,3,4,3,4,4,5,3,4,4,5,4,5,5,6,
-    1,2,2,3,2,3,3,4,2,3,3,4,3,4,4,5,2,3,3,4,3,4,4,5,3,4,4,5,4,5,5,6,
-    2,3,3,4,3,4,4,5,3,4,4,5,4,5,5,6,3,4,4,5,4,5,5,6,4,5,5,6,5,6,6,7,
-    1,2,2,3,2,3,3,4,2,3,3,4,3,4,4,5,2,3,3,4,3,4,4,5,3,4,4,5,4,5,5,6,
-    2,3,3,4,3,4,4,5,3,4,4,5,4,5,5,6,3,4,4,5,4,5,5,6,4,5,5,6,5,6,6,7,
-    2,3,3,4,3,4,4,5,3,4,4,5,4,5,5,6,3,4,4,5,4,5,5,6,4,5,5,6,5,6,6,7,
-    3,4,4,5,4,5,5,6,4,5,5,6,5,6,6,7,4,5,5,6,5,6,6,7,5,6,6,7,6,7,7,8
-};
-static inline int Abc_TtBitCount16( int i ) { return Abc_TtBitCount8[i & 0xFF] + Abc_TtBitCount8[i >> 8]; }
+static inline int Abc_TtBitCount16( int i ) { return __builtin_popcount( i & 0xffff ); }
 
 ////////////////////////////////////////////////////////////////////////
 ///                      MACRO DEFINITIONS                           ///
@@ -229,6 +242,33 @@ static inline void Abc_TtMask( word * pTruth, int nWords, int nBits )
             pTruth[w] = Abc_Tt6Mask( nBits - w * 64 );
         else
             pTruth[w] = 0;
+}
+
+/**Function*************************************************************
+
+  Synopsis    []
+
+  Description []
+               
+  SideEffects []
+
+  SeeAlso     []
+
+***********************************************************************/
+static inline word Abc_TtWordReverseBits( word w )
+{
+    int Rev[16] = {0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15};
+    word r = 0; int i;
+    for ( i = 0; i < 16; i++ )
+        r |= (word)Rev[(w >> (i<<2))&15] << ((15-i)<<2);
+    return r;
+}
+static inline word Abc_TtWordReverseHexDigits( word w ) 
+{
+    word r = 0; int i;
+    for ( i = 0; i < 16; i++ )
+        r |= ((w >> (i<<2))&15) << ((15-i)<<2);
+    return r;
 }
 
 /**Function*************************************************************
@@ -3642,6 +3682,7 @@ static inline void Abc_TtProcessBiDecExperiment()
 //    Dau_DsdPrintFromTruth( &This, Abc_TtBitCount16(resThis) );
 //    Dau_DsdPrintFromTruth( &That, Abc_TtBitCount16(resThat) );
     nVars = nSuppLim;
+    This = s_Truth26[0][0];
 }
 
 /**Function*************************************************************
@@ -3833,6 +3874,23 @@ static inline word * Abc_TtSymFunGenerate( char * pOnes, int nVars )
     return pTruth;
 }
 
+/**Function*************************************************************
+
+  Synopsis    [Fix big-endian when dealilng with 5-var truth tables.]
+
+  Description []
+               
+  SideEffects []
+
+  SeeAlso     []
+
+***********************************************************************/
+static inline void Abc_TtFlipVar5( word * p, int nVars )
+{
+    int Test = 1;
+    if ( *((char *)&Test) == 0 && nVars > 5 )
+        Abc_TtFlip( p, Abc_TtWordNum(nVars), 5 );
+}
 
 ABC_NAMESPACE_HEADER_END
 
