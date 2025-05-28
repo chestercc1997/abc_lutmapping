@@ -30,6 +30,7 @@ static int node_counter = 0;
   //===----------------------------------------------------------------------===//
   void Node::cutEnum(int lut_size, bool area_oriented)
   {
+
     if (cuts_.size() > 0 || (isChoice()))
     {
       return;
@@ -41,6 +42,14 @@ static int node_counter = 0;
     }
 
     pCut min_dep_cutsize_ = nullptr;
+    //如果不是pi节点
+    if (this->isPi() == false)
+    {
+      printf("fainin(0) cuts: %d\n", fanin(0)->cutListNum());
+      printf("fainin(1) cuts: %d\n", fanin(1)->cutListNum());
+    }
+    
+
     if (this->isPi())
     {
       pCut trivial_cut = std::make_shared<Cut>(this, 1.0, 1, Encode(id_));
@@ -56,6 +65,8 @@ static int node_counter = 0;
     {
       return;
     }
+
+
     if (area_oriented)
     {
       utility::pruner<pCut, comp_pcut_area, sizer_pcut, pcut_area> pruner(lut_size);
@@ -75,6 +86,7 @@ static int node_counter = 0;
       {
         assert(0);
       }
+
 
       for (auto it_l = fanin(0)->begin(); it_l != fanin(0)->end(); ++it_l)
         for (auto it_r = fanin(1)->begin(); it_r != fanin(1)->end(); ++it_r)
@@ -537,6 +549,9 @@ static int node_counter = 0;
       {
         node = new Node(Node::And, abc_obj->Id, Abc_ObjName(abc_obj), Abc_ObjFanoutNum(abc_obj), abc_obj->fPhase, cuts_num);
         nodes_.push_back(node);
+   
+
+    
       }
       else
       {
@@ -612,6 +627,7 @@ static int node_counter = 0;
     auto cpu_start = clock();
     // initialize
     init();
+
     // end init
 
     // Simultaneous gate decompose and tech mapping
@@ -620,6 +636,7 @@ static int node_counter = 0;
       // generating the simple gates according to the given netlist and do not
       // considering choice node(casuse they don't connected in netlist)
       simpleGateGen(getGateSize());
+
       if (verbose())
       {
         std::cout << "+  Simple Gates + \n";
@@ -630,7 +647,7 @@ static int node_counter = 0;
         }
         std::cout << "+---------------+\n";
       }
-
+    // cut enumeration 
       nodes_with_virtual_.reserve(nodes_.size() * 2);
 
       for (auto it = begin(); it != end(); ++it)
@@ -638,13 +655,19 @@ static int node_counter = 0;
         Node *node = *it;
         if (node->isPi())
         {
+          // printf("PI\n");
           node->cutEnum(getLutSize(), isAreaOriented());
           nodes_with_virtual_.push_back(node);
+          // printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
         }
         else if (node->sGate() != nullptr)
         {
+          // printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
+          
           node->sGate()->SimpleGateEnum(getLutSize(), isAreaOriented(), this->nodes_with_virtual_);
           this->nodes_with_virtual_.push_back(node);
+          
+          // printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
         }
         else if (!isAreaOriented()) // choice nodes and internal nodes of simple gate
         {
@@ -652,6 +675,12 @@ static int node_counter = 0;
           this->nodes_with_virtual_.push_back(node);
         }
       }
+      // for (auto it = begin(); it != end(); ++it)
+      // {
+      //   Node *node = *it;
+      //   printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
+      // }
+
       this->nodes_.swap(this->nodes_with_virtual_);
       std::vector<Node *>().swap(this->nodes_with_virtual_);
     }
@@ -1004,6 +1033,12 @@ static int node_counter = 0;
         }
         node->setSgate(gate);
         simple_gates_num_[gate->size()]++;
+        if (verbose())
+        {
+          // gate->print();
+        }
+        
+        
       }
     }
   }
@@ -1362,6 +1397,7 @@ static int node_counter = 0;
     bool val = false;
     Node *fanin = node->fanin(idx);
     if (node->complement(idx) == false && fanin->isPi() == false)
+    // if (fanin->isPi() == false)
       val = true;
     if (fanin->fanoutNum() > 1)
     {
@@ -1424,10 +1460,12 @@ static int node_counter = 0;
     }
     else
     {
+      printf("==============\n");
       if (size() == 2)
       {
         for (auto it = internal_.rbegin(); it != internal_.rend(); ++it)
         {
+          
           (*it)->cutEnum(k, area_oriented);
           nodes.push_back(*it);
         }

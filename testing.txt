@@ -1,0 +1,4017 @@
+ABC command line: "read /export3/cchen099/abc_lutmapping/i10.aig; agdmap -v".
+
+
+/export3/cchen099/abc_lutmapping/i10	 is running ... 
++  Simple Gates + 
+   2	|  1086
+   3	|  237
+   4	|  106
+   5	|  73
+   6	|  19
+   7	|  13
+   8	|  26
++---------------+
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 2
+==============
+==============
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 7
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 8
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 2
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 2
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 2
+==============
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+fainin(0) cuts: 2
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+fainin(0) cuts: 2
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 5
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 5
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 2
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 2
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 2
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 2
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 3
+==============
+==============
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 2
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 8
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 8
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 8
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 5
+==============
+==============
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 4
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 4
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 4
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 4
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 4
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+fainin(0) cuts: 7
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+fainin(0) cuts: 7
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+fainin(0) cuts: 7
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+fainin(0) cuts: 7
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+==============
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 2
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 8
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 2
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+==============
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 4
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+==============
+==============
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 6
+==============
+==============
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 2
+==============
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 4
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 4
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 4
+==============
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 8
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 5
+==============
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+==============
+==============
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 3
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+==============
+==============
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 8
+fainin(0) cuts: 8
+fainin(1) cuts: 8
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 7
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+fainin(0) cuts: 5
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+fainin(0) cuts: 5
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+fainin(0) cuts: 5
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+fainin(0) cuts: 5
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+fainin(0) cuts: 5
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 7
+==============
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 8
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 4
+fainin(0) cuts: 5
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 4
+fainin(0) cuts: 5
+fainin(1) cuts: 7
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 7
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 6
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+==============
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 6
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 5
+fainin(1) cuts: 5
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 4
+fainin(1) cuts: 4
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 2
+==============
+fainin(0) cuts: 3
+fainin(1) cuts: 3
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 1
+fainin(1) cuts: 1
+==============
+fainin(0) cuts: 2
+fainin(1) cuts: 2
+
+        runtime report       
++--------------------------------+
+|  Enum             	94 %     |
+|  Sele             	 5 %     |
+|--------------------------------|
+|  cpu  	   	0.047 sec|
+|  elapse 	 	0.047 sec|
++--------------------------------+
+
+        primitives report       
++-------------------------------+
+|  LUT1     0	%   	0	|
+|  LUT2     8	%   	48	|
+|  LUT3     9	%   	53	|
+|  LUT4     7	%   	45	|
+|  LUT5     11	%   	63	|
+|  LUT6     62	%   	355	|
+|                               |
+|  LUT                	564	|
+|-------------------------------|
+|  Final Lvl     	18	|
++-------------------------------+
+
