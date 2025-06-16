@@ -42,12 +42,7 @@ static int node_counter = 0;
     }
 
     pCut min_dep_cutsize_ = nullptr;
-    //如果不是pi节点
-    if (this->isPi() == false)
-    {
-      printf("fainin(0) cuts: %d\n", fanin(0)->cutListNum());
-      printf("fainin(1) cuts: %d\n", fanin(1)->cutListNum());
-    }
+
     
 
     if (this->isPi())
@@ -403,6 +398,7 @@ static int node_counter = 0;
     lut_num_.resize(6);
     for (int i = 0; i < mapper->poNum(); ++i)
     {
+    
       Node *fanin = mapper->getPo(i)->fanin(0);
       assert(fanin);
       if (fanin->isAnd())
@@ -411,6 +407,7 @@ static int node_counter = 0;
         fanin->setArea(0.0);
         fanin->setFlow(0.0);
       }
+      printf("PO fanin %d: \n", fanin->getId());
     }
   }
 
@@ -574,6 +571,7 @@ static int node_counter = 0;
       node->setAig(abc2node[fanin0], abc2node[fanin1], abc_node->fCompl0, abc_node->fCompl1);
     }
 
+
     for (int i = 0; i < Abc_NtkPoNum(pNtk_); ++i)
     {
       AbcNode *po = Abc_NtkPo(pNtk_, i);
@@ -618,7 +616,9 @@ static int node_counter = 0;
           std::vector<Node *>().swap(node->choice);
         }
       }
+
     } // end choice pre-process
+    printf(" Node number: %d nodes are collected.\n", (int)nodes_.size());
   }
 
   int Mapper::map()
@@ -647,27 +647,49 @@ static int node_counter = 0;
         }
         std::cout << "+---------------+\n";
       }
+
+      //遍历nodes
+
     // cut enumeration 
       nodes_with_virtual_.reserve(nodes_.size() * 2);
-
+      printf(" Node number: %d nodes are collected.\n", (int)nodes_.size());
+      // for (auto it = begin(); it != end(); ++it)
+      // {
+      //   printf("node %d\n", (*it)->getId());
+      // }
       for (auto it = begin(); it != end(); ++it)
       {
+        printf("test nodes\n");
         Node *node = *it;
         if (node->isPi())
         {
           // printf("PI\n");
           node->cutEnum(getLutSize(), isAreaOriented());
           nodes_with_virtual_.push_back(node);
-          // printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
+          printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
+     
         }
         else if (node->sGate() != nullptr)
         {
-          // printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
-          
+      
+          printf("Node %d has %d input(s):\n", node->getId(), node->sGate()->inputs().size());
+
+          // 遍历并打印所有输入节点的 ID
+          const std::vector<Node*>& inputs = node->sGate()->inputs();
+
+          // 遍历输入节点并打印信息
+          for (size_t i = 0; i < inputs.size(); ++i) {
+              if (inputs[i]) {
+                  printf("  Input %zu: Node ID %d\n", i + 1, inputs[i]->getId());
+              } else {
+                  printf("  Input %zu: Null (invalid node)\n", i + 1);
+              }
+          }
+           printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
+   
           node->sGate()->SimpleGateEnum(getLutSize(), isAreaOriented(), this->nodes_with_virtual_);
           this->nodes_with_virtual_.push_back(node);
-          
-          // printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
+          printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
         }
         else if (!isAreaOriented()) // choice nodes and internal nodes of simple gate
         {
@@ -675,15 +697,18 @@ static int node_counter = 0;
           this->nodes_with_virtual_.push_back(node);
         }
       }
-      // for (auto it = begin(); it != end(); ++it)
-      // {
-      //   Node *node = *it;
-      //   printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
-      // }
+      printf("len of nodes_with_virtual_: %d\n", (int)nodes_with_virtual_.size());
 
       this->nodes_.swap(this->nodes_with_virtual_);
       std::vector<Node *>().swap(this->nodes_with_virtual_);
+      printf(" Node number: %d nodes are collected.\n", (int)nodes_.size());
+          for (auto it = begin(); it != end(); ++it)
+      {
+        printf("node %d\n", (*it)->getId());
+      }
+      printf("cut enumeration finished.\n");
     }
+    
     else
     {
       // cut enumeration
@@ -721,8 +746,18 @@ static int node_counter = 0;
       for (auto it = rbegin(); it != rend(); ++it)
       {
         Node *node = *it;
+        std::cout << "Checking node: " << node->getId() << std::endl;
+        std::cout << "isRoot: " << delay_sol->isRoot(node) << std::endl;
+        if (!delay_sol->isRoot(node)) {
+          std::cout << "Error: Node " << (node ? node->getId() : -1) << " is not a root node. Skipping this node." << std::endl;
+          continue; // 跳过该节点，不抛出异常
+      }
+        if(delay_sol->repCut(node) != nullptr){
+          printf("node %d has been selected before\n", node->getId());
+        }
         if (delay_sol->isRoot(node) == false || delay_sol->repCut(node) != nullptr)
         {
+
           continue;
         }
         pCut sel = node->minDepth();
@@ -732,9 +767,12 @@ static int node_counter = 0;
         {
           if ((*node_it)->isAnd())
           {
+            printf("node %d is added to delay_sol\n", (*node_it)->getId());
             delay_sol->add(*node_it, nullptr);
           }
         }
+        printf("node %d\n", node->getId());
+
       } // end selection
       for (Node *node : nodes_)
       {
@@ -742,9 +780,18 @@ static int node_counter = 0;
         {
           node->setArea(node->minDepth()->getArea() / (Area)delay_sol->fanout(node));
         }
+        
+     
+
       }
+      printf("delay_sol\n");   
+      delay_sol->printInfo();
+      std::cout << "level: " << delay_sol->getLevel() << std::endl;
+       
       delete delay_sol;
     }
+
+    
 
     // effective area pass
     Solution *area_sol = new Solution(this);
@@ -778,7 +825,7 @@ static int node_counter = 0;
     auto elapse_end = std::chrono::high_resolution_clock::now();
     auto cpu_end = clock();
     pNtk_ = agdmapToAbcLogic();
-    // dumpTempNetwork();
+    dumpTempNetwork();
     // pNtk_ = Io_Read( "_temp_.v", IO_FILE_VERILOG, 1, 0);
     // if (pNtk_)
     //   system("rm ./_temp_.v");
@@ -912,6 +959,7 @@ static int node_counter = 0;
       assert(min_flow < SSINF);
       Area fanout = (Area)sol->fanout(node);
       node->setFlow((min_flow) / fanout);
+      printf("Node %d flow: %f fanout: %f area :%f minflow:%f\n ", node->getId(), node->flow(), fanout, node->area(), min_flow);
     }
   }
 
@@ -1035,7 +1083,7 @@ static int node_counter = 0;
         simple_gates_num_[gate->size()]++;
         if (verbose())
         {
-          // gate->print();
+          gate->print();
         }
         
         
@@ -1460,7 +1508,7 @@ static int node_counter = 0;
     }
     else
     {
-      printf("==============\n");
+      // printf("==============\n");
       if (size() == 2)
       {
         for (auto it = internal_.rbegin(); it != internal_.rend(); ++it)
@@ -1468,6 +1516,7 @@ static int node_counter = 0;
           
           (*it)->cutEnum(k, area_oriented);
           nodes.push_back(*it);
+          printf("find node %d", (*it)->getId());
         }
         root_->cutEnum(k, area_oriented);
         return;
@@ -1706,6 +1755,7 @@ static int node_counter = 0;
 #endif
 
     int decom_num = decompositions_.size();
+    printf("decom num = %d\n", decom_num);
     int discard_head = 0;
     int discard_tail = decom_num;
 
@@ -1734,8 +1784,12 @@ static int node_counter = 0;
         decompositions_[i]->area_binpack();
         pruner2.push(decompositions_[i]);
       }
+      
       decompositions_.clear();
       pruner2.collect(decompositions_, area_oriented);
+      printf("decom num after pruning = %d\n", decompositions_.size());
+    
+    
     }
     else
     {

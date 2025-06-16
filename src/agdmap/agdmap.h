@@ -302,6 +302,17 @@ public:
   Depth depth() const { return depth_; }
 
   void invert() { func_ = ~func_; }
+  void printInputs() const {
+    std::cout << "Cut inputs (Node IDs):";
+    for (const auto& node : inputs_) {
+        if (node) {
+            std::cout << " " << node->getId();
+        } else {
+            std::cout << " nullptr";
+        }
+    }
+    std::cout << std::endl;
+}
 
   friend class Node;
 
@@ -460,7 +471,46 @@ public:
   int   fanout(Node *node)    { return weight_.find(node) == weight_.end() ? 1 : weight_[node]; }
   int   reference(Node *node) { return weight_.find(node) == weight_.end() ? 0 : weight_[node]; }
   void  setRef(Node* node)    { assert(weight_.find(node) == weight_.end()); weight_[node] = 1; }
+  void printInfo() const {
+    // Print `weight_`
+    std::cout << "weight_ map contents:" << std::endl;
+    for (const auto& [node, value] : weight_) {
+        if (node) {
+            std::cout << "Node ID: " << node->getId() << ", Weight: " << value << std::endl;
+        } else {
+            std::cout << "Node: nullptr, Weight: " << value << std::endl;
+        }
+    }
 
+    // Print `sol_`
+    std::cout << "sol_ map contents:" << std::endl;
+    for (const auto& [node, cut] : sol_) {
+        if (node) {
+            std::cout << "Node ID: " << node->getId() << ", pCut inputs: ";
+            if (cut) {
+                cut->printInputs(); // 调用 cut 的 printInputs() 方法
+            } else {
+                std::cout << "nullptr";
+            }
+            std::cout << std::endl;
+        } else {
+            std::cout << "Node: nullptr, pCut: nullptr" << std::endl;
+        }
+    }
+
+    // Print `lut_num_`
+    std::cout << "lut_num_ vector contents:" << std::endl;
+    for (size_t i = 0; i < lut_num_.size(); ++i) {
+        std::cout << "LUT Size " << (i + 1) << ": " << lut_num_[i] << std::endl;
+    }
+
+    // Print `lut_`
+    std::cout << "lut_: " << lut_ << std::endl;
+    //print get_level
+
+    // Print `logic_level_`
+    // std::cout << "logic_level_: " << this->getLevel() << std::endl;
+}
   Mapper* mapper;
   int rtl_f7_, rtl_f8_, rtl_f9_;
 
