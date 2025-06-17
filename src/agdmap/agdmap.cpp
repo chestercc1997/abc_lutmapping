@@ -667,6 +667,7 @@ static int node_counter = 0;
           node->cutEnum(getLutSize(), isAreaOriented());
           nodes_with_virtual_.push_back(node);
           printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
+          node->print();
      
         }
         else if (node->sGate() != nullptr)
@@ -685,7 +686,7 @@ static int node_counter = 0;
                   printf("  Input %zu: Null (invalid node)\n", i + 1);
               }
           }
-           printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
+          //  printf("node %d has %d cuts\n", node->getId(), node->cutListNum());
    
           node->sGate()->SimpleGateEnum(getLutSize(), isAreaOriented(), this->nodes_with_virtual_);
           this->nodes_with_virtual_.push_back(node);
@@ -1517,8 +1518,10 @@ static int node_counter = 0;
           (*it)->cutEnum(k, area_oriented);
           nodes.push_back(*it);
           printf("find node %d", (*it)->getId());
+          (*it)->print();
         }
         root_->cutEnum(k, area_oriented);
+        root_->print();
         return;
       }
     }
@@ -1633,7 +1636,7 @@ static int node_counter = 0;
     pCut trivial = std::make_shared<Cut>(root_, root_->minDepth()->getArea() + 1.0, depth, Encode(root_->getId()));
     root_->addCut(trivial);
     root_->setArea(root_->minDepth()->getArea() / (Area)root_->fanoutNum());
-
+    root_->print();
     if (area_oriented == true)
     {
       for (Node *node : internal_)
@@ -1677,9 +1680,17 @@ static int node_counter = 0;
     for (auto it = inputs_[0]->begin(); it != inputs_[0]->end(); ++it)
     {
       if ((*it)->cutsize() <= k)
+    
       {
         decompositions_.emplace_back(std::make_shared<Decompose>(*it, k, size()));
       }
+    }
+    printf("intput0 cut num = %d\n",inputs_[0]->cutListNum());
+    printf("decom num = %d\n", decompositions_.size());
+    for (size_t i = 0; i < decompositions_.size(); ++i) {
+      std::cout << "Decomposition #" << i << ":\n";
+     //  decompositions_[i]->print();
+      decompositions_[i]->print1();
     }
     int combine_num = 1;
     int max_dec_size = 2 * k;
@@ -1709,6 +1720,12 @@ static int node_counter = 0;
         float decom_epsilon = 2.0; // the max area difference between pruning decompostions.
         float epsilon = combine_num == size() - 1 ? decom_epsilon : 0;
         pruner.collect(decompositions_, epsilon);
+        // std::cout << "--- After combining " << combine_num << " inputs ---" << std::endl;
+        // for (size_t i = 0; i < decompositions_.size(); ++i) {
+        //      std::cout << "Decomposition #" << i << ":\n";
+        //     //  decompositions_[i]->print();
+        //      decompositions_[i]->print1();
+        // }
         ++combine_num;
       } // end while
     }
@@ -1755,7 +1772,7 @@ static int node_counter = 0;
 #endif
 
     int decom_num = decompositions_.size();
-    printf("decom num = %d\n", decom_num);
+    printf("after wide gate cut enumeration, decom num = %d\n", decom_num);
     int discard_head = 0;
     int discard_tail = decom_num;
 
@@ -1782,13 +1799,20 @@ static int node_counter = 0;
       for (int i = discard_head; i != discard_tail; ++i)
       {
         decompositions_[i]->area_binpack();
+        printf("#dec %d\n",i);
+        decompositions_[i]->print();
+
         pruner2.push(decompositions_[i]);
       }
       
       decompositions_.clear();
       pruner2.collect(decompositions_, area_oriented);
-      printf("decom num after pruning = %d\n", decompositions_.size());
-    
+      printf("decom num after binpack pruning = %d\n", decompositions_.size());
+      for (size_t i = 0; i < decompositions_.size(); ++i)
+      {
+      printf("Decomposition #%zu after binpack pruning:\n", i);  // 打印当前 decomposition 的编号
+      decompositions_[i]->print();  // 调用每个 decomposition 的 print 方法
+      }
     
     }
     else

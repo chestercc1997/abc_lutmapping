@@ -177,7 +177,12 @@ public:
   const std::string& name() const { return name_; }
 
   Depth depth();
-  
+  void print() const {
+  std::cout << "Node " << id_ << " (" << name_ << "): "
+            << "Fanout = " << fanout_num_
+            << ", Area = " << area_
+            << "\n";
+  }  
   void  cutEnum(int lut_size, bool area_oriented);
   void  p(std::string name); // for debug
 
@@ -666,7 +671,16 @@ public:
       delete bin;
     }
   }
-
+  void print1() {
+    std::cout << "========== Decomposition Info ==========\n";
+    std::cout << "Inputs size       : " << inputs_.size() << "\n";
+    std::cout << "LUT size (k)      : " << lut_size_ << "\n";
+    std::cout << "Area              : " << area_ << "\n";
+    std::cout << "Depth             : " << depth_ << "\n";
+    std::cout << "Cut count         : " << cuts_.size() << "\n";
+    std::cout << "Cut size          : " << cut_size_ << "\n";
+    std::cout << "========================================\n";
+  }
   /**
    * @brief combine the subcut 
    */
