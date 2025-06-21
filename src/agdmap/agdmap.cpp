@@ -1697,8 +1697,9 @@ static int node_counter = 0;
     if (area_oriented)
     {
       utility::pruner<pDec, comp_pdec_area, sizer_pdec, pdec_area> pruner(max_dec_size);
-      while (combine_num != size())
+      while (combine_num != size()) 
       {
+        std::vector<pDec> collected_dec;
         Node *input = inputs_[combine_num];
         max_dec_size = k * (combine_num + 1);
         int each_size_dec_num = 4;  // the max store number in general cut merging.
@@ -1706,26 +1707,42 @@ static int node_counter = 0;
         pruner.reset_cell_size_upper(max_dec_size, combine_num == size() - 1 ? max_dec_store_num : each_size_dec_num);
         for (const pDec &dec : decompositions_)
         {
+
           for (auto it = input->begin(); it != input->end(); ++it)
           {
             pCut cut = *it;
+            
             if (cut->cutsize() > k)
               continue;
+
+             std::cout << "--- Processing Cut ---\n";
+              if (cut) {
+                 cut->printInputs(); // 调用 cut 的 printInputs() 方法
+              } else {
+                 std::cout << "Cut is null.\n";
+              }
+
             pDec new_dec = std::make_shared<Decompose>(*dec);
             new_dec->combine(cut);
             pruner.push(new_dec);
+            collected_dec.push_back(new_dec); // 收集 new_dec
           }
+        }
+        std::cout << "--- ALL new_dec " << combine_num << " inputs ---" << std::endl;
+        for (size_t i = 0; i < collected_dec.size(); ++i) {
+            std::cout << "Decomposition #" << i << ":\n";
+            collected_dec[i]->print1(); // 假设 print1 是打印方法
         }
         decompositions_.clear();
         float decom_epsilon = 2.0; // the max area difference between pruning decompostions.
         float epsilon = combine_num == size() - 1 ? decom_epsilon : 0;
         pruner.collect(decompositions_, epsilon);
-        // std::cout << "--- After combining " << combine_num << " inputs ---" << std::endl;
-        // for (size_t i = 0; i < decompositions_.size(); ++i) {
-        //      std::cout << "Decomposition #" << i << ":\n";
-        //     //  decompositions_[i]->print();
-        //      decompositions_[i]->print1();
-        // }
+        std::cout << "--- After pruning " << combine_num << " inputs ---" << std::endl;
+        for (size_t i = 0; i < decompositions_.size(); ++i) {
+             std::cout << "Decomposition #" << i << ":\n";
+            //  decompositions_[i]->print();
+             decompositions_[i]->print1();
+        }
         ++combine_num;
       } // end while
     }

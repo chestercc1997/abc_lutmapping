@@ -678,7 +678,14 @@ public:
     std::cout << "Area              : " << area_ << "\n";
     std::cout << "Depth             : " << depth_ << "\n";
     std::cout << "Cut count         : " << cuts_.size() << "\n";
-    std::cout << "Cut size          : " << cut_size_ << "\n";
+    for (size_t i = 0; i < cuts_.size(); ++i) {
+        std::cout << "--- Cut #" << i << " ---\n";
+        if (cuts_[i]) {
+            cuts_[i]->printInputs(); // 调用 Cut 的 printInputs() 方法
+        } else {
+            std::cout << "Cut is null.\n";
+        }
+    }
     std::cout << "========================================\n";
   }
   /**
